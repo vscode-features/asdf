@@ -24,6 +24,7 @@ cat > /usr/local/bin/hello \
 RED='\033[0;91m'
 NC='\033[0m' # No Color
 echo "\${RED}${GREETING}, \$(whoami)!\${NC}"
+date
 EOF
 
 chmod +x /usr/local/bin/hello
